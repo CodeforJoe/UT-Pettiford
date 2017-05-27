@@ -1,0 +1,9 @@
+-Correct all toc titles to reflect something legible
+	-list of exmamples: is it neccessary for the webpage, should it be put in or taken out
+-eliminate inline styling and creat my own stylesheet for the text and footnotes, etc
+-look and replace the botched quotes. starting in bibliography
+
+
+
+
+-figure out how to get the text into a databse to be served by php

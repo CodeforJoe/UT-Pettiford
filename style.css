@@ -1,0 +1,164 @@
+#title-page {
+  text-align: center;
+}
+
+
+body p {
+  line-height: 200%;
+}
+
+body h1 h2 h3 h4{
+  font-family: times-new-roman;
+  font-weight: strong;
+
+}
+
+img {
+  width: 100%;
+  height: auto;
+
+
+}
+
+
+header {
+  position: fixed;
+  text-align: center;
+  border-bottom: solid #000000 1px;
+  background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 15px;
+
+}
+ header p {
+   font-size: 10px;
+ }
+
+ p {
+    text-indent: 30px;
+}
+
+sup {
+  font-size: 50%;
+}
+
+.example-description{
+  p.before: <br/>;
+  text-indent: 20px;
+  font-weight: regular;
+  font-color: #000000;
+}
+
+#nav-button {
+  padding-left: 20px;
+}
+
+#custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+/* Body styling */
+body p, body h1, body h2, body h3, body h4 {
+
+  font-size: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: auto;
+}
+
+/*nav bar css*/
+#nav-button {
+  position: fixed;
+  float: left;
+
+}
+#navbar {
+
+  margin-top: 10px;
+  background-color: #ffffff;
+
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    text-align: left;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
